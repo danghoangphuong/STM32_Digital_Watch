@@ -543,6 +543,16 @@ void Print_uart(const char*format,...)
 	va_end(args);
 	HAL_UART_Transmit(&huart1, (uint8_t*)buff_uart, 40, 1000);
 }
+
+void I2C_Scan(I2C_HandleTypeDef *hi2c) {
+    char msg[64];
+    for (uint8_t i = 1; i < 127; i++) {
+        if (HAL_I2C_IsDeviceReady(hi2c, (uint16_t)(i<<1), 1, 10) == HAL_OK) {
+            sprintf(msg, "I2C device found at 0x%X\r\n", i);
+            HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), 100);
+        }
+    }
+}
 /* USER CODE END 0 */
 
 /**
@@ -699,7 +709,7 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.ClockSpeed = 100000;
+  hi2c1.Init.ClockSpeed = 400000;
   hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
   hi2c1.Init.OwnAddress1 = 0;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
@@ -733,7 +743,7 @@ static void MX_I2C2_Init(void)
 
   /* USER CODE END I2C2_Init 1 */
   hi2c2.Instance = I2C2;
-  hi2c2.Init.ClockSpeed = 400000;
+  hi2c2.Init.ClockSpeed = 100000;
   hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
   hi2c2.Init.OwnAddress1 = 0;
   hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
@@ -897,7 +907,9 @@ void Start_Time_Task(void const * argument)
 			oled_clear_request = 0;
 		}
 		RTC_handle();
+		I2C_Scan(&hi2c1);
 		osDelay(1000);
+		
 	} 
 }
 
