@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=OLED_SCL Pin=JP5-3
+Removed Pin From Net: NetName=OLED_SDA Pin=JP5-4
+Added Pin To Net: NetName=OLED_SDA Pin=JP5-3
+Added Pin To Net: NetName=OLED_SCL Pin=JP5-4
+Added Room: Name=Sheet1

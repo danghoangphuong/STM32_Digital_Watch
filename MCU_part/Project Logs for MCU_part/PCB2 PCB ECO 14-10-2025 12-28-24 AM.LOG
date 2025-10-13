@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+3.3 Pin=JP6-1
+Removed Pin From Net: NetName=DHT11_CONTROL Pin=JP6-2
+Added Pin To Net: NetName=DHT11_CONTROL Pin=JP6-1
+Added Pin To Net: NetName=+3.3 Pin=JP6-2
+Added Room: Name=Sheet1
