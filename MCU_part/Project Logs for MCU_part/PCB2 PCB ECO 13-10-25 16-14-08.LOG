@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=BTN_CONFIRM Pin=U1-13
+Removed Pin From Net: NetName=BUZZER_ALARM Pin=U1-25
+Added Pin To Net: NetName=BTN_CONFIRM Pin=U1-25
+Added Pin To Net: NetName=BUZZER_ALARM Pin=U1-32
+Added Room: Name=Sheet1

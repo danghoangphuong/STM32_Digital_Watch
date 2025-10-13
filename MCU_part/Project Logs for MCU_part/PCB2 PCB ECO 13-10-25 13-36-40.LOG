@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+3.3 Pin=JP6-1
+Removed Pin From Net: NetName=DHT11_CONTROL Pin=JP6-2
+Removed Pin From Net: NetName=GND Pin=JP6-3
+Removed Member From Class: ClassName=Sheet1 Member=JP6
+Added Component: Designator=JP?(JP 1x3 DT)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000903"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Th?ng 11MM"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3 Pin=JP?-1
+Added Pin To Net: NetName=DHT11_CONTROL Pin=JP?-2
+Added Pin To Net: NetName=GND Pin=JP?-3
+Added Member To Class: ClassName=Sheet1 Member=Component JP? JP 1x3 2.54
+Added Room: Name=Sheet1

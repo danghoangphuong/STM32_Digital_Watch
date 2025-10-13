@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=BUZZER_ALARM Pin=U1-29
+Added Pin To Net: NetName=BUZZER_ALARM Pin=U1-25
+Added Room: Name=Sheet1

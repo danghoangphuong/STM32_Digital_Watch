@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SWCLK Pin=JP2-2
+Removed Pin From Net: NetName=+3.3 Pin=JP2-4
+Added Pin To Net: NetName=+3.3 Pin=JP2-2
+Added Pin To Net: NetName=SWCLK Pin=JP2-4
+Added Room: Name=Sheet1
