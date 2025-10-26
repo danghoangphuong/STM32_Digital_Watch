@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=DS1307_SDA Pin=JP4-1
+Removed Pin From Net: NetName=DS1307_SCL Pin=JP4-2
+Change Component Description : Designator=U1 Old Description=ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7) New Description=ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)
+
+Added Pin To Net: NetName=DS1307_SCL Pin=JP4-1
+Added Pin To Net: NetName=DS1307_SDA Pin=JP4-2
+Added Room: Name=Sheet1

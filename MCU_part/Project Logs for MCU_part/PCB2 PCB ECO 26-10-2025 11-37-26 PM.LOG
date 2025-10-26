@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=JP3 Old Footprint=JP 1x4 DC New Footprint=JP 1x4 DT
+Change component parameters: Designator = "JP3" ("JP3"); Footprint = "JP 1x4 DC"; UniqueID = "\RDMUDRMS" ("\RDMUDRMS")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH000903"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Ð?c 2.54MM 1x40P Th?ng 11MM"; VariantName = "[No Variations]"
+Added Room: Name=Sheet1
